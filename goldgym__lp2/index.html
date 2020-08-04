@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone">
+  <meta name="description" content="">
+  <link ontouchstart="" href="styles/foundation.css" rel="stylesheet" type="text/css">
+  <link ontouchstart="" href="styles/slick.css" rel="stylesheet" type="text/css">
+  <link ontouchstart="" href="styles/pstyle.css" rel="stylesheet" type="text/css">
+
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <title>フィットネスショップ</title>
+</head>
+
+<body class="goidgymlp">
+  <header id="header">
+    <h2 class="LP_header_h2"><a href="#"><img src="./images/header/logo.png" alt="フィットネスショップ"></a></h2>
+  </header>
+  <main>
+    <section class="section01">
+      <div class="main__wrap">
+        <h2 class="Nas__ttl">スポーツクラブNAS会員様に向けた</h2>
+        <h1 class="section01__title">おうちフィットネス用アイテムを<br class="only__sp ">セレクトしました</h1>
+        <p><img src="./images/common/main.png"></p>
+        <dl class="section01_dl">
+          <dt>
+            <h3 class="title">スポーツクラブNAS会員限定<br>サイト内商品が</h3>
+            <p class="off__img"><img src="./images/common/10off.png"></p>
+          </dt>
+          <dd>
+            <div class="Cuppon__Block">
+              <p class="code">クーポンコード</p>
+              <input type="text" value="NAS10" id="myInput">
+              <button class="cuppon" onclick="myFunction()"><img src="./images/common/cuppon.png"></button>
+              <p class="text">※決済画面にてご入力いただくと、割引が適用されます。</p>
+            </div>
+            <p class="text_detail">当サイトは、株式会社THINKフィットネスが運営するフィットネス用品店<br class="only__pc">「フィットネスショップ」の通販サイトになります。<br>
+              ご購入に際しては会員登録（無料）が必要になります。</p>
+          </dd>
+        </dl>
+      </div>
+    </section>
+    <section class="section02">
+      <div class="main__wrap">
+        <h2 class="LP__title__text">
+          <span class="ja Gothic_Font">カテゴリーから探す</span>
+          <span class="en">CLASSIFICATION</span>
+        </h2>
+        <ul class="Classification__Block fadein">
+          <li class="big">
+            <a href="https://www.fitnessshop.jp/products/list.php?category_id=235">
+              <figure><img src="./images/common/classification1.png"></figure>
+              <div class="child">
+                <h5 class="title">ストレッチ・マッサージ</h5>
+              </div>
+            </a>
+          </li>
+          <li class="big">
+            <a href="https://www.fitnessshop.jp/products/list.php?category_id=231">
+              <figure><img src="./images/common/classification2.png"></figure>
+              <div class="child">
+                <h5 class="title">ヨガグッズ</h5>
+              </div>
+            </a>
+          </li>
+          <li class="big">
+            <a href="https://www.fitnessshop.jp/products/list.php?transactionid=cd68c03fa8e652e1030fb68ecf28820f176a2a3e&mode=search&name=nas-studio">
+              <figure><img src="./images/common/classification3.png"></figure>
+              <div class="child">
+                <h5 class="title">スタジオ系用品</h5>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/list.php?category_id=81">
+              <figure><img src="./images/common/classification4.png"></figure>
+              <div class="child">
+                <h5 class="title">シェイプアップサプリメント</h5>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/list.php?transactionid=1bf817b3486e3d9037666aa33b72875bc6636a0d&mode=search&name=nas-protein">
+              <figure><img src="./images/common/classification5.png"></figure>
+              <div class="child">
+                <h5 class="title">プロテイン（パウダー）</h5>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/list.php?category_id=213">
+              <figure><img src="./images/common/classification6.png"></figure>
+              <div class="child">
+                <h5 class="title">プロテインフーズ</h5>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/list.php?transactionid=cd68c03fa8e652e1030fb68ecf28820f176a2a3e&mode=search&name=nas-ladiesgear">
+              <figure><img src="./images/common/classification7.png"></figure>
+              <div class="child">
+                <h5 class="title">レディーストレーニングギア</h5>
+              </div>
+            </a>
+          </li>
+          <li class="big">
+            <a href="https://www.fitnessshop.jp/products/list.php?category_id=168">
+              <figure><img src="./images/common/classification8.png"></figure>
+              <div class="child">
+                <h5 class="title">省スペースホームジム</h5>
+              </div>
+            </a>
+          </li>
+          <li class="big">
+            <a href="https://www.fitnessshop.jp/products/list.php?transactionid=1bf817b3486e3d9037666aa33b72875bc6636a0d&mode=search&name=nas-homegym">
+              <figure><img src="./images/common/classification9.png"></figure>
+              <div class="child">
+                <h5 class="title">本格ホームジム</h5>
+              </div>
+            </a>
+          </li>
+          <li class="big">
+            <a href="https://www.fitnessshop.jp/products/list.php?transactionid=1bf817b3486e3d9037666aa33b72875bc6636a0d&mode=search&name=nas-db">
+              <figure><img src="./images/common/classification10.png"></figure>
+              <div class="child">
+                <h5 class="title">ダンベル・バーベル</h5>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/list.php?category_id=43">
+              <figure><img src="./images/common/classification11.png"></figure>
+              <div class="child">
+                <h5 class="title">フィットネスバイク</h5>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/list.php?category_id=42">
+              <figure><img src="./images/common/classification12.png"></figure>
+              <div class="child">
+                <h5 class="title">ランニングマシン</h5>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/list.php?transactionid=1bf817b3486e3d9037666aa33b72875bc6636a0d&mode=search&name=nas-cardio">
+              <figure><img src="./images/common/classification13.png"></figure>
+              <div class="child">
+                <h5 class="title">その他の有酸素マシン</h5>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/list.php?transactionid=1bf817b3486e3d9037666aa33b72875bc6636a0d&mode=search&name=nas-abs">
+              <figure><img src="./images/common/classification14.png"></figure>
+              <div class="child">
+                <h5 class="title">腹筋強化アイテム</h5>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section03">
+      <div class="main__wrap">
+        <h2 class="LP__title__text">
+          <span class="ja Gothic_Font">ピックアップアイテム</span>
+          <span class="en">PICKUP ITEM</span>
+        </h2>
+        <ul class="Pick__items__Slider Gothic_Font fadein2">
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=474">
+              <figure>
+                <img src="./img/pickup/p01.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">骨盤職人 ペルビス PV01</p>
+                <p class="pick__items__price">7,700円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=920">
+              <figure>
+                <img src="./img/pickup/p02.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">GRIDフォームローラー</p>
+                <p class="pick__items__price">5,500円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=963">
+              <figure>
+                <img src="./img/pickup/p03.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">Reebok(リーボック)エリートヨガマット</p>
+                <p class="pick__items__price">8,910円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=981">
+              <figure>
+                <img src="./img/pickup/p04.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">シェイプエクスプレス エアロビックバーベルセット</p>
+                <p class="pick__items__price">6,600～12,870円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=831">
+              <figure>
+                <img src="./img/pickup/p05.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">BEST NUTRITION LAB(ベストニュートリションラボ) ファットバーン</p>
+                <p class="pick__items__price">4,104円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=830">
+              <figure>
+                <img src="./img/pickup/p06.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">BEST NUTRITION LAB(ベストニュートリションラボ) セブンカーボブロック</p>
+                <p class="pick__items__price">4,104円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/list.php?transactionid=84449e76037573851f06188a4732fb40c50c912e&mode=search&name=PURE">
+              <figure>
+                <img src="./img/pickup/p07.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">PURE DIAMOND グラスフェッド プロテイン</p>
+                <p class="pick__items__price">6,372円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/list.php?transactionid=84449e76037573851f06188a4732fb40c50c912e&mode=search&name=ONE+Bar">
+              <figure>
+                <img src="./img/pickup/p08.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">ONE Bar(ワンバー)</p>
+                <p class="pick__items__price">378円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=1293">
+              <figure>
+                <img src="./img/pickup/p09.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">GOLD'S GYM G3325 EXレザーベルト【ピンク】</p>
+                <p class="pick__items__price">9,350円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=1078">
+              <figure>
+                <img src="./img/pickup/p10.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">adidas(アディダス) パフォーマンスグローブ WOMEN'S</p>
+                <p class="pick__items__price">2,420円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=945">
+              <figure>
+                <img src="./img/pickup/p11.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">POWERBLOCK パワーブロック SP 50【8月末入荷予定】</p>
+                <p class="pick__items__price">64,900円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=1518">
+              <figure>
+                <img src="./img/pickup/p12.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">Bowflex(ボウフレックス) 5.1Sベンチ</p>
+                <p class="pick__items__price">49,500円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=559">
+              <figure>
+                <img src="./img/pickup/p13.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">TUFFSTUFF(タフスタッフ) パワーラック CPR-265</p>
+                <p class="pick__items__price">203,500円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=566">
+              <figure>
+                <img src="./img/pickup/p14.png">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">TUFFSTUFF(タフスタッフ) DXマルチパーパスベンチ CDM-400</p>
+                <p class="pick__items__price">115,500円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=1097">
+              <figure>
+                <img src="./img/pickup/p15.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">ALEX ラバー HEXダンベル</p>
+                <p class="pick__items__price">825～15,950円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=260">
+              <figure>
+                <img src="./img/pickup/p16.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">IVANKO(イヴァンコ) OB-20 最高級オリンピックバー2200mm</p>
+                <p class="pick__items__price">126,500 円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=803">
+              <figure>
+                <img src="./img/pickup/p17.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">【9月中旬入荷予定】Reebok(リーボック)GB50 エクササイズバイク</p>
+                <p class="pick__items__price">74,800円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=1319">
+              <figure>
+                <img src="./img/pickup/p18.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">SCHWINN (シュイン) IC7 インドアサイクル</p>
+                <p class="pick__items__price">107,800円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=1306">
+              <figure>
+                <img src="./img/pickup/p19.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">9月中旬頃入荷予定】 Reebok(リーボック)JET300+ トレッドミル 【代引不可】</p>
+                <p class="pick__items__price">253,000円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=1576">
+              <figure>
+                <img src="./img/pickup/p20.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">Reebok SL8.0 トレッドミル 【準業務用】</p>
+                <p class="pick__items__price">495,000円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=1647">
+              <figure>
+                <img src="./img/pickup/p21.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">Bowflex(ボウフレックス) MAX TRAINER マックストレーナー M6i</p>
+                <p class="pick__items__price">182,600円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=1311">
+              <figure>
+                <img src="./img/pickup/p22.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">SCHWINN(シュイン)Rower(ローワー)ローイングマシン 【代引不可】</p>
+                <p class="pick__items__price">99,000円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=1191">
+              <figure>
+                <img src="./img/pickup/p23.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">Reebok(リーボック) アブウェッジマット【9月入荷予定】</p>
+                <p class="pick__items__price">5,720円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fitnessshop.jp/products/detail.php?product_id=124">
+              <figure>
+                <img src="./img/pickup/p24.jpg">
+              </figure>
+              <div class="child">
+                <p class="pick__items__name">GOLD'S GYM(ゴールドジム) T5500 フィットネスローラー</p>
+                <p class="pick__items__price">3,080円<span>(税込)</span></p>
+              </div>
+              <p class="pick__items__more"><img src="./images/common/more__btn02.png"></p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <div class="main__wrap">
+      <nav class="pc only__pc">
+        <div class="footer_child">
+          <h2>商品を探す</h2>
+          <ul>
+            <li><a href="/products/list.php?transactionid=760c0f83280284c53ebe4b171ff48af3f006a714&amp;mode=search&amp;name=">商品一覧</a></li>
+            <li><a href="/products/list.php?category_id=1">カテゴリから探す</a></li>
+            <li><a href="/products/list.php?category_id=166">目的から探す</a></li>
+            <li><a href="/products/list.php?category_id=170">ゴールドジム用品から探す</a></li>
+          </ul>
+        </div>
+        <div class="footer_child">
+          <h2>ご利用ガイド</h2>
+          <ul>
+            <li><a href="/user_data/shoppingguide/">ショッピングガイド</a></li>
+            <li><a href="/user_data/about/">初めてのお客さま</a></li>
+            <li><a href="/user_data/sitemap/">サイトマップ</a></li>
+            <li><a href="/contact/">お問い合わせ</a></li>
+          </ul>
+        </div>
+        <div class="footer_child">
+          <h2>ご購入について</h2>
+          <ul>
+            <li><a href="/user_data/shoppingguide/#deliv">送料について</a></li>
+            <li><a href="/user_data/shoppingguide/#retex">返品・交換について</a></li>
+            <li><a href="/user_data/shoppingguide/#payment">お支払方法について</a></li>
+            <li><a href="/user_data/shoppingguide/#point">ポイントについて</a></li>
+          </ul>
+        </div>
+        <div class="footer_child">
+          <h2>フィットネスショップ</h2>
+          <ul>
+            <li><a href="/user_data/company.php">会社概要</a></li>
+            <li><a href="/user_data/terms.php">利用規約</a></li>
+            <li><a href="/guide/privacy.php">個人情報保護方針</a></li>
+            <li><a href="/user_data/law.php">特定商品取引法に基づく表示</a></li>
+          </ul>
+        </div>
+        <div class="footer_child social">
+          <p>フィットネスショップ</p>
+          <ul class="ico_social">
+            <li>
+              <a href="https://www.instagram.com/fs.harajuku/?hl=ja" target="_blank">
+                <img src="./images/footer/ico_instagram.png" alt="Instagram">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%83%8D%E3%82%B9%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97-158600934300476/" target="_blank">
+                <img src="./images/footer/ico_fb.png" alt="facebook">
+              </a>
+            </li>
+          </ul>
+          <p>ゴールドジム</p>
+          <ul class="ico_social">
+            <li>
+              <a href="https://www.instagram.com/goldsgymjapan/?hl=ja" target="_blank">
+                <img src="./images/footer/ico_instagram.png" alt="Instagram">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/Golds-Gym-Japan%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89%E3%82%B8%E3%83%A0-558573804345965/" target="_blank">
+                <img src="./images/footer/ico_fb.png" alt="facebook">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="only__sp">
+        <dl class="contmenu">
+          <dt class="active"><span>カテゴリから探す</span></dt>
+          <dd>
+            <ul>
+              <li><a href="/products/list.php?category_id=2">フリーウェイト関連製品</a></li>
+              <li><a href="/products/list.php?category_id=24">ウェイトトレーニングマシン</a></li>
+              <li><a href="/products/list.php?category_id=41">有酸素マシン</a></li>
+              <li><a href="/products/list.php?category_id=53">サプリメント</a></li>
+              <li><a href="/products/list.php?category_id=106">トレーニングギア</a></li>
+              <li><a href="/products/list.php?category_id=129">トレーニングウェア・シューズ</a></li>
+              <li><a href="/products/list.php?category_id=144">格闘技用品</a></li>
+              <li><a href="/products/list.php?category_id=158">DVD・書籍</a></li>
+              <li><a href="/products/list.php?category_id=163">セール品</a></li>
+              <li><a href="/products/list.php?category_id=164">カタログ</a></li>
+              <li><a href="/products/list.php?category_id=165">その他</a></li>
+            </ul>
+          </dd>
+          <dt class="active"><span>目的から探す</span></dt>
+          <dd>
+            <ul>
+              <li><a href="/user_data/lp/homegym/">ホームジムを作る</a></li>
+              <li><a href="/products/list.php?category_id=168">省スペースでトレーニング</a></li>
+              <li><a href="/products/list.php?category_id=169">自宅で有酸素運動</a></li>
+            </ul>
+          </dd>
+          <dt class="active"><span>ゴールドジム用品から探す</span></dt>
+          <dd>
+            <ul>
+              <li><a href="/products/list.php?category_id=171">プロテイン</a></li>
+              <li><a href="/products/list.php?category_id=172">筋力強化サプリメント</a></li>
+              <li><a href="/products/list.php?category_id=173">パワービルダーシリーズ</a></li>
+              <li><a href="/products/list.php?category_id=174">その他サプリメント</a></li>
+              <li><a href="/products/list.php?category_id=175">トレーニングギア</a></li>
+              <li><a href="/products/list.php?category_id=176">トレーニングウェア</a></li>
+            </ul>
+          </dd>
+          <ul>
+            <li><a href="/user_data/about/">フィットネスショップについて</a></li>
+            <li><a href="https://fitnesslove.fitnessshop.jp/mypage/login?source=ec">新規会員登録</a></li>
+            <li><a href="https://fitnesslove.fitnessshop.jp/mypage/login?source=ec">ログイン</a></li>
+          </ul>
+          <dt class="active"><span>購入について</span></dt>
+          <dd>
+            <ul>
+              <li><a href="/user_data/shoppingguide/#deliv">送料について</a></li>
+              <li><a href="/user_data/shoppingguide/#retex">返品・交換について</a></li>
+              <li><a href="/user_data/shoppingguide/#payment">お支払方法について</a></li>
+              <li><a href="/user_data/shoppingguide/#point">ポイントについて</a></li>
+            </ul>
+          </dd>
+        </dl>
+        <ul class="social">
+          <li>
+            <p>フィットネスショップ</p>
+            <ul class="ico_social">
+              <li>
+                <a href="https://www.instagram.com/fs.harajuku/?hl=ja" target="_blank">
+                  <img src="./images/footer/ico_instagram.png" alt="Instagram">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%83%8D%E3%82%B9%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97-158600934300476/" target="_blank">
+                  <img src="./images/footer/ico_fb.png" alt="facebook">
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>ゴールドジム</p>
+            <ul class="ico_social">
+              <li>
+                <a href="https://www.instagram.com/goldsgymjapan/?hl=ja" target="_blank">
+                  <img src="./images/footer/ico_instagram.png" alt="Instagram">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/Golds-Gym-Japan%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89%E3%82%B8%E3%83%A0-558573804345965/" target="_blank">
+                  <img src="./images/footer/ico_fb.png" alt="facebook">
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="footer_bottom">
+          <ul>
+            <li><a href="/user_data/shoppingguide/">ショッピングガイド</a></li>
+            <li><a href="/user_data/company.php">会社概要</a></li>
+          </ul>
+          <ul>
+            <li><a href="/user_data/about/">初めてのお客さま</a></li>
+            <li><a href="/user_data/terms.php">利用規約</a></li>
+          </ul>
+          <ul>
+            <li><a href="/user_data/sitemap/">サイトマップ</a></li>
+            <li><a href="/guide/privacy.php">個人情報保護方針</a></li>
+          </ul>
+          <ul>
+            <li><a href="/contact/">お問い合わせ</a></li>
+            <li><a href="/user_data/law.php">特定商取引法に基づく表記</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="copyright">
+      <p>Copyright© THINK FITNESS All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="scripts/jquery-3.2.1.min.js"></script>
+  <script src="scripts/slick.min.js"></script>
+  <script src="scripts/common.js"></script>
+</body>
+
+</html>
